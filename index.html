@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Deeplink Flutter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; }
+        .btn { 
+            display: block; width: 200px; margin: 20px auto; padding: 15px;
+            background: #0277bd; color: white; text-decoration: none; border-radius: 8px;
+        }
+        .btn-product { background: #e65100; }
+    </style>
+</head>
+<body>
+    <h2>Trang Test Deeplink cá nhân</h2>
+    
+    <a href="demoapp://user?id=DeepLinkMaster" class="btn">Mở Profile User</a>
+    
+    <a href="demoapp://product/iphone" class="btn btn-product">Mở Sản phẩm iPhone</a>
+
+    <p>Nếu nhấn nút không mở được app, hãy kiểm tra lại cấu hình scheme trong code Flutter của bạn.</p>
+</body>
+</html>
